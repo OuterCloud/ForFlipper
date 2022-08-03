@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C63DD6480EE63B5107C958F /* Pods_ForFlipper_ForFlipperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443B0D4B1D77B5CB65D38B99 /* Pods_ForFlipper_ForFlipperUITests.framework */; };
-		A143711FF6AAE1F1E29621EE /* Pods_ForFlipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E96E0AADB8D303C55CE8CF7 /* Pods_ForFlipper.framework */; };
+		108FE6C83D8DCD72D62A7348 /* libPods-ForFlipper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9077F941A4FE8AC6EE29FE5 /* libPods-ForFlipper.a */; };
 		CB737F2D289411600002B9F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB737F2C289411600002B9F0 /* AppDelegate.m */; };
 		CB737F30289411600002B9F0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB737F2F289411600002B9F0 /* SceneDelegate.m */; };
 		CB737F33289411600002B9F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB737F32289411600002B9F0 /* ViewController.m */; };
@@ -19,7 +18,6 @@
 		CB737F48289411620002B9F0 /* ForFlipperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB737F47289411620002B9F0 /* ForFlipperTests.m */; };
 		CB737F52289411620002B9F0 /* ForFlipperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB737F51289411620002B9F0 /* ForFlipperUITests.m */; };
 		CB737F54289411620002B9F0 /* ForFlipperUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB737F53289411620002B9F0 /* ForFlipperUITestsLaunchTests.m */; };
-		DE84FCA3C2AB8B811E28DCE3 /* Pods_ForFlipperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC798BCF822D8A673497C50 /* Pods_ForFlipperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		443B0D4B1D77B5CB65D38B99 /* Pods_ForFlipper_ForFlipperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForFlipper_ForFlipperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		502BE366BA3B638968F0EAEA /* Pods-ForFlipper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFlipper.debug.xcconfig"; path = "Target Support Files/Pods-ForFlipper/Pods-ForFlipper.debug.xcconfig"; sourceTree = "<group>"; };
-		7BEE7A018FF49B2297B33E8E /* Pods-ForFlipper-ForFlipperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFlipper-ForFlipperUITests.release.xcconfig"; path = "Target Support Files/Pods-ForFlipper-ForFlipperUITests/Pods-ForFlipper-ForFlipperUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7D1873F64868613813257DB8 /* Pods-ForFlipper-ForFlipperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFlipper-ForFlipperUITests.debug.xcconfig"; path = "Target Support Files/Pods-ForFlipper-ForFlipperUITests/Pods-ForFlipper-ForFlipperUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9E96E0AADB8D303C55CE8CF7 /* Pods_ForFlipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForFlipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9C5EB798105DD90C086F8 /* Pods-ForFlipper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFlipper.release.xcconfig"; path = "Target Support Files/Pods-ForFlipper/Pods-ForFlipper.release.xcconfig"; sourceTree = "<group>"; };
-		BAC798BCF822D8A673497C50 /* Pods_ForFlipperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForFlipperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFE33BA96F0E26D453702E08 /* Pods-ForFlipperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFlipperTests.release.xcconfig"; path = "Target Support Files/Pods-ForFlipperTests/Pods-ForFlipperTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB737F28289411600002B9F0 /* ForFlipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForFlipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB737F2B289411600002B9F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB737F2C289411600002B9F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,7 +57,7 @@
 		CB737F4D289411620002B9F0 /* ForFlipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForFlipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB737F51289411620002B9F0 /* ForFlipperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForFlipperUITests.m; sourceTree = "<group>"; };
 		CB737F53289411620002B9F0 /* ForFlipperUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForFlipperUITestsLaunchTests.m; sourceTree = "<group>"; };
-		EF15BA5C5005092C0C0C5CE6 /* Pods-ForFlipperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFlipperTests.debug.xcconfig"; path = "Target Support Files/Pods-ForFlipperTests/Pods-ForFlipperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9077F941A4FE8AC6EE29FE5 /* libPods-ForFlipper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForFlipper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A143711FF6AAE1F1E29621EE /* Pods_ForFlipper.framework in Frameworks */,
+				108FE6C83D8DCD72D62A7348 /* libPods-ForFlipper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE84FCA3C2AB8B811E28DCE3 /* Pods_ForFlipperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C63DD6480EE63B5107C958F /* Pods_ForFlipper_ForFlipperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +89,7 @@
 		0B17FFFA0576284B94306D4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9E96E0AADB8D303C55CE8CF7 /* Pods_ForFlipper.framework */,
-				443B0D4B1D77B5CB65D38B99 /* Pods_ForFlipper_ForFlipperUITests.framework */,
-				BAC798BCF822D8A673497C50 /* Pods_ForFlipperTests.framework */,
+				E9077F941A4FE8AC6EE29FE5 /* libPods-ForFlipper.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,10 +99,6 @@
 			children = (
 				502BE366BA3B638968F0EAEA /* Pods-ForFlipper.debug.xcconfig */,
 				AFA9C5EB798105DD90C086F8 /* Pods-ForFlipper.release.xcconfig */,
-				7D1873F64868613813257DB8 /* Pods-ForFlipper-ForFlipperUITests.debug.xcconfig */,
-				7BEE7A018FF49B2297B33E8E /* Pods-ForFlipper-ForFlipperUITests.release.xcconfig */,
-				EF15BA5C5005092C0C0C5CE6 /* Pods-ForFlipperTests.debug.xcconfig */,
-				BFE33BA96F0E26D453702E08 /* Pods-ForFlipperTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -202,7 +186,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB737F5A289411620002B9F0 /* Build configuration list for PBXNativeTarget "ForFlipperTests" */;
 			buildPhases = (
-				CCF0373FAAAE8236B815A566 /* [CP] Check Pods Manifest.lock */,
 				CB737F3F289411620002B9F0 /* Sources */,
 				CB737F40289411620002B9F0 /* Frameworks */,
 				CB737F41289411620002B9F0 /* Resources */,
@@ -221,11 +204,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB737F5D289411620002B9F0 /* Build configuration list for PBXNativeTarget "ForFlipperUITests" */;
 			buildPhases = (
-				BC53E45E0C850740B3EFD5F0 /* [CP] Check Pods Manifest.lock */,
 				CB737F49289411620002B9F0 /* Sources */,
 				CB737F4A289411620002B9F0 /* Frameworks */,
 				CB737F4B289411620002B9F0 /* Resources */,
-				1EB4EB252645D4B930396A54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,23 +288,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1EB4EB252645D4B930396A54 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ForFlipper-ForFlipperUITests/Pods-ForFlipper-ForFlipperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ForFlipper-ForFlipperUITests/Pods-ForFlipper-ForFlipperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForFlipper-ForFlipperUITests/Pods-ForFlipper-ForFlipperUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		95201243B23733E4BD77A3B1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,50 +303,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForFlipper/Pods-ForFlipper-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC53E45E0C850740B3EFD5F0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ForFlipper-ForFlipperUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCF0373FAAAE8236B815A566 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ForFlipperTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE2C1240B63001DEF5564968 /* [CP] Check Pods Manifest.lock */ = {
@@ -604,6 +524,25 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ComponentKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Boost-iOSX\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-PeerTalk\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlipperKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RenderCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent\"",
+					"\"${PODS_ROOT}/CocoaLibEvent/lib\"",
+					/usr/lib/swift,
+				);
 				MARKETING_VERSION = 1.0;
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -655,7 +594,6 @@
 		};
 		CB737F5B289411620002B9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF15BA5C5005092C0C0C5CE6 /* Pods-ForFlipperTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -680,7 +618,6 @@
 		};
 		CB737F5C289411620002B9F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE33BA96F0E26D453702E08 /* Pods-ForFlipperTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -705,7 +642,6 @@
 		};
 		CB737F5E289411620002B9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D1873F64868613813257DB8 /* Pods-ForFlipper-ForFlipperUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -728,7 +664,6 @@
 		};
 		CB737F5F289411620002B9F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BEE7A018FF49B2297B33E8E /* Pods-ForFlipper-ForFlipperUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

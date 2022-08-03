@@ -6,12 +6,14 @@
 //
 
 #import "AppDelegate.h"
-//#import <FlipperKit/FlipperClient.h>
-//#import <FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>
-//#import <FlipperKitLayoutComponentKitSupport/FlipperKitLayoutComponentKitSupport.h>
-//#import <FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>
-//#import <FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>
-//#import <SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>
+#import <FlipperKit/FlipperClient.h>
+#import <FlipperKitExamplePlugin/FlipperKitExamplePlugin.h>
+#import <FlipperKitLayoutComponentKitSupport/FlipperKitLayoutComponentKitSupport.h>
+#import <FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>
+#import <FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>
+#import <FlipperKitReactPlugin/FlipperKitReactPlugin.h>
+#import <FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>
+#import <SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>
 
 @interface AppDelegate ()
 
@@ -22,15 +24,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-//    FlipperClient *client = [FlipperClient sharedClient];
-//    SKDescriptorMapper *layoutDescriptorMapper = [[SKDescriptorMapper alloc] initWithDefaults];
-//    [FlipperKitLayoutComponentKitSupport setUpWithDescriptorMapper: layoutDescriptorMapper];
-//    [client addPlugin: [[FlipperKitLayoutPlugin alloc] initWithRootNode: application
-//                                                    withDescriptorMapper: layoutDescriptorMapper]];
-//
-//    [client addPlugin:[[FKUserDefaultsPlugin alloc] initWithSuiteName:nil]];
-//    [client addPlugin: [[FlipperKitNetworkPlugin alloc] initWithNetworkAdapter:[SKIOSNetworkAdapter new]]];
-//    [client start];
+    FlipperClient* client = [FlipperClient sharedClient];
+    SKDescriptorMapper* layoutDescriptorMapper =
+        [[SKDescriptorMapper alloc] initWithDefaults];
+    [FlipperKitLayoutComponentKitSupport
+        setUpWithDescriptorMapper:layoutDescriptorMapper];
+    [client addPlugin:[[FlipperKitLayoutPlugin alloc]
+                              initWithRootNode:application
+                          withDescriptorMapper:layoutDescriptorMapper]];
+
+    [client addPlugin:[[FKUserDefaultsPlugin alloc] initWithSuiteName:nil]];
+
+    [[FlipperClient sharedClient]
+        addPlugin:[[FlipperKitNetworkPlugin alloc]
+                      initWithNetworkAdapter:[SKIOSNetworkAdapter new]]];
+    [client addPlugin:[FlipperKitExamplePlugin sharedInstance]];
+    [client addPlugin:[FlipperKitReactPlugin new]];
+    [client start];
     return YES;
 }
 

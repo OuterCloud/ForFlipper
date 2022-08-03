@@ -1,7 +1,5 @@
 PODS:
-  - boost-for-react-native (1.63.0)
   - CocoaAsyncSocket (7.6.5)
-  - CocoaLibEvent (1.0.0)
   - ComponentKit (0.31):
     - RenderCore (= 0.31)
     - Yoga (~> 1.14)
@@ -36,6 +34,8 @@ PODS:
   - FlipperKit/FKPortForwarding (0.156.0):
     - CocoaAsyncSocket (~> 7.6)
     - Flipper-PeerTalk (~> 0.0.4)
+  - FlipperKit/FlipperKitExamplePlugin (0.156.0):
+    - FlipperKit/Core
   - FlipperKit/FlipperKitHighlightOverlay (0.156.0)
   - FlipperKit/FlipperKitLayoutComponentKitSupport (0.156.0):
     - ComponentKit (= 0.31)
@@ -64,6 +64,8 @@ PODS:
   - FlipperKit/FlipperKitLayoutTextSearchable (0.156.0)
   - FlipperKit/FlipperKitNetworkPlugin (0.156.0):
     - FlipperKit/Core
+  - FlipperKit/FlipperKitReactPlugin (0.156.0):
+    - FlipperKit/Core
   - FlipperKit/FlipperKitUserDefaultsPlugin (0.156.0):
     - FlipperKit/Core
   - FlipperKit/SKIOSNetworkPlugin (0.156.0):
@@ -78,25 +80,27 @@ PODS:
     - Yoga (~> 1.14)
 
 DEPENDENCIES:
-  - boost-for-react-native
   - CocoaAsyncSocket
-  - CocoaLibEvent
   - ComponentKit (~> 0.31)
+  - Flipper
+  - Flipper-Boost-iOSX
   - Flipper-DoubleConversion
   - Flipper-Folly
   - Flipper-Glog
   - Flipper-PeerTalk
   - FlipperKit (~> 0.156.0)
+  - FlipperKit/FlipperKitExamplePlugin (~> 0.156.0)
   - FlipperKit/FlipperKitLayoutComponentKitSupport (~> 0.156.0)
+  - FlipperKit/FlipperKitReactPlugin (~> 0.156.0)
   - FlipperKit/FlipperKitUserDefaultsPlugin (~> 0.156.0)
   - FlipperKit/SKIOSNetworkPlugin (~> 0.156.0)
+  - libevent
   - OpenSSL-Universal
+  - SocketRocket (~> 0.6.0)
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
-    - boost-for-react-native
     - CocoaAsyncSocket
-    - CocoaLibEvent
     - ComponentKit
     - Flipper
     - Flipper-Boost-iOSX
@@ -114,9 +118,7 @@ SPEC REPOS:
     - YogaKit
 
 SPEC CHECKSUMS:
-  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
-  CocoaLibEvent: 2fab71b8bd46dd33ddb959f7928ec5909f838e3f
   ComponentKit: 7bf7048b9814afc6b6641645a14177f95fd9b9ae
   Flipper: a021a9a7dfa8f6aa548637f1a403f860fb8d5c30
   Flipper-Boost-iOSX: fd1e2b8cbef7e662a122412d7ac5f5bea715403c
@@ -133,6 +135,6 @@ SPEC CHECKSUMS:
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 9215c1425f664e27837a5c3aedac45172d5de970
+PODFILE CHECKSUM: 40ae48a5fc0059d55daf59e9334eb3bad5d2de41
 
 COCOAPODS: 1.11.3
